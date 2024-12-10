@@ -36,6 +36,11 @@
   wsl --install -d Ubuntu-22.04
   ```
 
+  - #### Vérifier l'installation d'Ubuntu
+  ```bash
+  wsl --list -–verbose
+  ```
+
 - ### Installation de Java JDK (version 8 ou supérieure)
   - #### Mettre à jour la liste des paquets
   ```bash
