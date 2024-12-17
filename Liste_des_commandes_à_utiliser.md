@@ -94,7 +94,7 @@
       export HADOOP_MAPRED_HOME=$HADOOP_HOME 
       export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop 
       export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native 
-      export HADOOP_OPTS="Djava.library.path=$HADOOP_HOME/lib/native" 
+      export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native" 
       export HADOOP_STREAMING=$HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.4.1.jar 
       export HADOOP_LOG_DIR=$HADOOP_HOME/logs 
       export PDSH_RCMD_TYPE=ssh   
